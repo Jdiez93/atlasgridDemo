@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/node.tsbuildinfo",
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "strict": true,
+    "types": ["node"]
+  },
+  "include": [
+    "vite.config.ts",
+    "tests",
+    "src/sim/**/*.ts",
+    "src/data/**/*.ts",
+    "src/lib/config.ts",
+    "src/lib/framing.ts",
+    "src/city/choreography.ts",
+    "src/city/profiles.ts",
+    "src/city/companies.ts",
+    "src/city/rng.ts",
+    "src/city/collision.ts",
+    "src/city/schedule.ts",
+    "src/city/population.ts",
+    "src/city/scenery.ts",
+    "src/lib/sun.ts",
+    "src/lib/heat.ts",
+    "src/lib/recommend.ts",
+    "src/director/shots.ts",
+    "src/world/**/*.ts",
+    "src/store/**/*.ts"
+  ]
+}

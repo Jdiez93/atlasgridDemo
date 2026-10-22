@@ -1,0 +1,58 @@
+{
+  "project": "AtlasGrid Logistics v2 — first functional phase",
+  "verifiedAt": "2026-10-06T11:38:41.266155+00:00",
+  "environment": {
+    "node": "v24.19.0",
+    "npm": "11.9.0",
+    "browser": "Chromium 133 headless / SwiftShader",
+    "platform": "Linux"
+  },
+  "commands": {
+    "npm install": {
+      "exitCode": 0,
+      "ownNodeModules": true
+    },
+    "npm run lint": {
+      "exitCode": 0
+    },
+    "npm run build": {
+      "exitCode": 0
+    },
+    "npm test": {
+      "exitCode": 0,
+      "filesPassed": 3,
+      "testsPassed": 31,
+      "testsFailed": 0,
+      "durationSeconds": 36.81
+    },
+    "npm run format:check": {
+      "exitCode": 0
+    }
+  },
+  "endurance": {
+    "fixedTicks": 72000,
+    "simulatedSeconds": 7200,
+    "equivalentMinutesAtX4": 30,
+    "actualBrowserThirtyMinuteSoak": false,
+    "watchdogResets": 0
+  },
+  "profile": {
+    "hubs": 8,
+    "fleetVehicles": 30,
+    "trucks": 23,
+    "vans": 7,
+    "forklifts": 8,
+    "ambientVehicles": 96,
+    "initialPhysicalPallets": 265
+  },
+  "baselineComparison": {
+    "unchangedSourceFiles": 11,
+    "extendedSourceFiles": 17,
+    "newSourceFiles": 7
+  },
+  "limits": [
+    "60 FPS on physical GPU not certified",
+    "No new thirty-minute browser memory certification",
+    "Phase scope and pending features documented in README.md and CHANGELOG.md"
+  ]
+}

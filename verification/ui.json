@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "externalRequests": 0,
+  "checks": [
+    "regional first view",
+    "8 world markers",
+    "all hubs navigable",
+    "warehouse preserved",
+    "30 fleet rows",
+    "van/state filters",
+    "follow selected truck",
+    "pause/resume truck",
+    "alternative road route",
+    "rain",
+    "quality selector",
+    "FPS",
+    "export/import JSON",
+    "x8",
+    "local persistence",
+    "1280 layout"
+  ]
+}
